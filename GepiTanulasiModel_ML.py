@@ -18,7 +18,7 @@ try:
     print("Data loaded successfully from 'your_data.csv':")
     display(df.head())
 except FileNotFoundError:
-    print("Error: 'your_data.csv' not found. Please make sure the file is in the correct directory or provide the full path.")
+    print("Error: 'your_data.csv' nem található.")
 except Exception as e:
     print(f"An error occurred while loading the CSV: {e}")
 
